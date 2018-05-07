@@ -1,0 +1,40 @@
+<style>
+    select{
+        width: 100px;
+        margin: 20px;
+        outline: none;
+        border: 1px solid grey;
+        padding: 10px;
+        font-size: 16px;
+        background:transparent;
+    }
+    select option{
+        color:green;
+        padding: 5px 0;
+        cursor: pointer;
+    }
+    /* customize otpion checked status style
+     * clear browser default styel like color, background color 
+     */
+    select option:checked,select:focus option:checked{
+        color: #e61a1a50;
+        -webkit-text-fill-color: #e61a1a50;
+        /* color can not opacity like rgba */
+        background: grey linear-gradient(0deg, grey 0%, grey 100%); 
+    }
+    /* customize otpion hover status style
+     */
+    select option:hover,select:focus option:hover{
+        color: #e61a1a50;
+        -webkit-text-fill-color: #e61a1a50;
+        /* color can not opacity like rgba */
+        background: grey linear-gradient(0deg, grey 0%, grey 100%); 
+    }
+
+    </style>
+<select name="" id="" multiple>
+    <option value="">demo1</option>
+    <option value="">demo2</option>
+    <option value="">demo3</option>
+    <option value="">demo4</option>
+</select>
