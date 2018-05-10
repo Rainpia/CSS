@@ -1,6 +1,6 @@
 # CssDemo
 
-#### multipleColumnEqualHeight.html
+#### multiple_column_equal_height.html
 ```
 尝试多列等高问题，
 利用padding-bottom|margin-bottom正负值相抵, 保持内容的高度；
@@ -9,7 +9,7 @@
 其他比这列矮的列会用它们的padding-bottom补偿这部分高度差。
 ```
 
-#### selectOptionCheckStyle.html
+#### select_option_check_style.html
 ```
 解决html element select -> options 默认样式问题，
 option 默认 focus checked 状态 background 是 blue， color 是 white ; blur checked 状态 background 是 grey ， color 是black 
