@@ -42,5 +42,5 @@ rem 是一种相对单位；
 现在vm的兼容性较差
 
 注：chrome 浏览器最小的字体为 12px，如果设置 10px 也会渲染成 12px 。
-参考：https://www.jianshu.com/p/82f02af17e78
+[参考博客](https://www.jianshu.com/p/82f02af17e78)
 ```
